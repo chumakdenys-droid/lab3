@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфоліо - Денис Чумак</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li>
+                    <a href="#projects">projects <span class="arrow">&#9662;</span></a>
+                    <ul class="submenu">
+                        <li><a href="#strength">Силові тренування</a></li>
+                        <li><a href="#volleyball">Командні види спорту</a></li>
+                        <li><a href="#trainer">Майбутня професія</a></li>
+                    </ul>
+                </li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+        
+        <div class="social-links">
+            <a href="https://www.instagram.com/t.ppppp_?stkn=N3FqZWhoa3M5b21v&utm_source=qr">Instagram</a>
+            <a href="https://t.me/tppppq">Telegram</a>
+        </div>
+
+        <form class="search-bar">
+            <input type="search" placeholder="Search..." required>
+            <button type="submit" aria-label="Знайти">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </button>
+        </form>
+    </header>
+
+    <main>
+        
+        <section id="home">
+            <div class="text-content">
+                <p>ПРИВІТ, Я ДЕНИС</p>
+                <h1>I'M A SOFTWARE DEVELOPER</h1>
+                <a href="#projects" class="btn">VIEW MY PROJECTS</a>
+            </div>
+            
+            <div class="image-content">
+                <img src="images/5255725998534237774.webp" width="300" alt="Денис Чумак"> 
+            </div>
+        </section>
+        
+        <section id="about">
+            <h2>About me (Про мене)</h2>
+            
+            <p>Я цілеспрямований студент спеціальності "Комп'ютерні науки" з великим інтересом до програмування та архітектури комп'ютерів.</p>
+            <p>Маю досвід написання програм мовою C, роботи з динамічною пам'яттю, файловими системами та асемблером x86-64. Завжди прагну вдосконалювати свої навички та створювати ефективні рішення.</p>
+
+            <div class="about-details">
+                <section class="education">
+                    <h3>EDUCATION (ОСВІТА)</h3>
+                    <article>
+                        <h4>Чернівецький національний університет імені Юрія Федьковича (ЧНУ)</h4>
+                        <p>Спеціальність: Комп'ютерні науки та системне програмування.</p>
+                        <p>Здобуваю міцний фундамент з вищої математики, розробки алгоритмів, комп'ютерної схемотехніки та системного програмування.</p>
+                    </article>
+                </section>
+
+                <section class="experience">
+                    <h3>Experience (Досвід)</h3>
+                    <article>
+                        <h4>Студент-розробник</h4>
+                        <p><time>2025 — дотепер</time></p>
+                        <p>Розробка консольних додатків, вивчення структур даних, сортування масивів та оптимізація коду під час виконання лабораторних та курсових проєктів.</p>
+                    </article>
+                </section>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Мої цілі: Спорт та Фітнес</h2>
+            <p>Хоча я навчаюся на комп'ютерних науках, моєю великою пристрастю є спорт. Я вже 4 роки активно тренуюся в залі, цікавлюся різними видами спорту і в майбутньому планую стати професійним фітнес-тренером, поєднуючи технології та фізичний розвиток.</p>
+            
+            <div class="cards-container">
+                <article class="card" id="strength">
+                    <div class="card-img-wrapper">
+                        <img src="images/gym.webp" alt="Тренажерний зал" width="300">
+                        <span class="img-caption">Силові тренування</span>
+                    </div>
+                    <h3>Силові тренування</h3>
+                    <p>4 роки регулярних занять у тренажерному залі. Працюю з вільними вагами, детально відстежую свої показники у жимі лежачи та присіданнях, а також на практиці вивчаю механіку гіпертрофії м'язів.</p>
+                </article>
+
+                <article class="card" id="volleyball">
+                    <div class="card-img-wrapper">
+                        <img src="images/volleyball.webp" alt="Волейбол" width="300">
+                        <span class="img-caption">Командні види спорту</span>
+                    </div>
+                    <h3>Командні види спорту</h3>
+                    <p>Люблю різноманітну активність, зокрема волейбол. Добре розбираюся в офіційних правилах FIVB, тактиці переміщення гравців на лініях та загальній механіці гри.</p>
+                </article>
+
+                <article class="card" id="trainer">
+                    <div class="card-img-wrapper">
+                        <img src="images/trainer.webp" alt="Фітнес тренер" width="300">
+                        <span class="img-caption">Майбутня професія: Тренер</span>
+                    </div>
+                    <h3>Майбутня професія: Тренер</h3>
+                    <p>Моя мета — допомагати іншим досягати форми. У майбутньому планую писати власні програми тренувань і, можливо, розробити софт на C для структурування спортивних метрик.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications (Досягнення)</h2>
+            <ul>
+                <li>
+                    <h3>БАЗОВИЙ КУРС З БІОМЕХАНІКИ ТА ФІТНЕСУ</h3>
+                    <p><time>2026</time></p>
+                    <p>Теоретична підготовка до роботи фітнес-тренером</p>
+                </li>
+                <li>
+                    <h3>ОСНОВИ АЛГОРИТМІЗАЦІЇ ТА ПРОГРАМУВАННЯ НА C</h3>
+                    <p><time>2025</time></p>
+                    <p>Чернівецький національний університет імені Юрія Федьковича</p>
+                </li>
+                <li>
+                    <h3>УЧАСНИК СТУДЕНТСЬКИХ ЗМАГАНЬ З ВОЛЕЙБОЛУ</h3>
+                    <p><time>2024</time></p>
+                    <p>Збірна факультету</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contacts">
+            <h2>Contacts (Контакти)</h2>
+            <address>
+                <p><strong>Email:</strong> <a href="mailto:chumak.denys@chnu.edu.ua">chumak.denys@chnu.edu.ua</a></p>
+                <p><strong>Phone:</strong> <a href="tel:+380506347622">+38 (050) 634-76-22</a></p>
+            </address>
+            <br>
+
+            <h3>Напишіть мені</h3>
+            <form action="#" method="POST">
+                <label for="contact-name">Ваше ім'я:</label>
+                <input type="text" id="contact-name" name="name" required placeholder="Введіть ім'я">
+                <br><br>
+                
+                <label for="contact-email">Ваш Email:</label>
+                <input type="email" id="contact-email" name="email" required placeholder="example@mail.com">
+                <br><br>
+                
+                <label for="contact-message">Повідомлення:</label><br>
+                <textarea id="contact-message" name="message" rows="4" required placeholder="Напишіть ваше повідомлення тут..."></textarea>
+                <br><br>
+                
+                <button type="submit">Відправити</button>
+                <button type="reset">Очистити</button>
+            </form>
+        </section>
+    </main>
+
+    <a href="#top" class="scroll-up" aria-label="Вгору"><span></span></a>
+    
+</body>
+</html>
